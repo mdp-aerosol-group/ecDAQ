@@ -1,0 +1,1465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.36.0 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkAdjustment" id="LagAd1">
+    <property name="lower">-5</property>
+    <property name="upper">5</property>
+    <property name="step_increment">0.1</property>
+    <property name="page_increment">10</property>
+  </object>
+  <object class="GtkAdjustment" id="LagAd2">
+    <property name="lower">-5</property>
+    <property name="upper">5</property>
+    <property name="step_increment">0.1</property>
+    <property name="page_increment">10</property>
+  </object>
+  <object class="GtkAdjustment" id="LagAd3">
+    <property name="lower">-5</property>
+    <property name="upper">5</property>
+    <property name="step_increment">0.1</property>
+    <property name="page_increment">10</property>
+  </object>
+  <object class="GtkAdjustment" id="LagAd4">
+    <property name="lower">-5</property>
+    <property name="upper">5</property>
+    <property name="step_increment">0.1</property>
+    <property name="page_increment">10</property>
+  </object>
+  <object class="GtkAdjustment" id="LagAd5">
+    <property name="lower">-5</property>
+    <property name="upper">5</property>
+    <property name="step_increment">0.1</property>
+    <property name="page_increment">10</property>
+  </object>
+  <object class="GtkWindow" id="mainWindow">
+    <property name="width_request">1900</property>
+    <property name="height_request">1000</property>
+    <property name="can_focus">False</property>
+    <property name="window_position">center</property>
+    <property name="default_width">-1</property>
+    <property name="default_height">-1</property>
+    <property name="gravity">center</property>
+    <child>
+      <object class="GtkPaned">
+        <property name="visible">True</property>
+        <property name="can_focus">True</property>
+        <child>
+          <object class="GtkStack" id="stack1">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <child>
+              <object class="GtkFixed" id="Raw Data">
+                <property name="width_request">32</property>
+                <property name="height_request">32</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <child>
+                  <object class="GtkEntry" id="AverageU">
+                    <property name="width_request">168</property>
+                    <property name="height_request">34</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">410</property>
+                    <property name="y">250</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="AverageV">
+                    <property name="width_request">168</property>
+                    <property name="height_request">34</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">410</property>
+                    <property name="y">300</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="AverageVel">
+                    <property name="width_request">168</property>
+                    <property name="height_request">34</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">410</property>
+                    <property name="y">350</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="AverageDir">
+                    <property name="width_request">168</property>
+                    <property name="height_request">34</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">410</property>
+                    <property name="y">400</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="width_request">136</property>
+                    <property name="height_request">20</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">10 Hz Data S tream</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Cantarell Bold 12"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="x">420</property>
+                    <property name="y">16</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="width_request">123</property>
+                    <property name="height_request">20</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">1 Hz Data Stream</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Cantarell Bold 12"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="x">170</property>
+                    <property name="y">20</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="width_request">49</property>
+                    <property name="height_request">20</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">u (m/s)</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Cantarell 12"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="x">340</property>
+                    <property name="y">256</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="width_request">48</property>
+                    <property name="height_request">20</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">v (m/s)</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Cantarell 12"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="x">340</property>
+                    <property name="y">306</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">w (m/s)</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Cantarell 12"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="x">340</property>
+                    <property name="y">456</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">T (°C)</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Cantarell 12"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="x">340</property>
+                    <property name="y">506</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="CPC1Serial">
+                    <property name="width_request">168</property>
+                    <property name="height_request">34</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">150</property>
+                    <property name="y">100</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="CPC2Serial">
+                    <property name="width_request">168</property>
+                    <property name="height_request">34</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">150</property>
+                    <property name="y">150</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="POPSSerial">
+                    <property name="width_request">168</property>
+                    <property name="height_request">34</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">150</property>
+                    <property name="y">200</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="CPC1Count">
+                    <property name="width_request">168</property>
+                    <property name="height_request">34</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">410</property>
+                    <property name="y">100</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="CPC2Count">
+                    <property name="name">CPC2Count</property>
+                    <property name="width_request">168</property>
+                    <property name="height_request">34</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">410</property>
+                    <property name="y">150</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="width_request">89</property>
+                    <property name="height_request">20</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">CPC1 (Nano)</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Cantarell 12"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="x">20</property>
+                    <property name="y">106</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="width_request">117</property>
+                    <property name="height_request">20</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">CPC2 (Standard)</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Cantarell 12"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="x">20</property>
+                    <property name="y">156</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="width_request">42</property>
+                    <property name="height_request">30</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">POPS (cm-3)</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Cantarell 12"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="x">20</property>
+                    <property name="y">206</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="AverageW">
+                    <property name="width_request">168</property>
+                    <property name="height_request">34</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">410</property>
+                    <property name="y">450</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="AverageT">
+                    <property name="width_request">168</property>
+                    <property name="height_request">34</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">410</property>
+                    <property name="y">500</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="width_request">60</property>
+                    <property name="height_request">20</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">vel (m/s)</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Cantarell 12"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="x">340</property>
+                    <property name="y">356</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">dir (°)</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Cantarell 12"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="x">340</property>
+                    <property name="y">406</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkBox" id="RawDir">
+                    <property name="width_request">1240</property>
+                    <property name="height_request">188</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="x">660</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkBox" id="RawVel">
+                    <property name="width_request">1240</property>
+                    <property name="height_request">188</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="x">660</property>
+                    <property name="y">158</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkBox" id="RawW">
+                    <property name="width_request">1240</property>
+                    <property name="height_request">188</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="x">660</property>
+                    <property name="y">316</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkBox" id="RawT">
+                    <property name="width_request">1240</property>
+                    <property name="height_request">188</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="x">660</property>
+                    <property name="y">474</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkBox" id="RawQ">
+                    <property name="width_request">1240</property>
+                    <property name="height_request">188</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="x">660</property>
+                    <property name="y">632</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkBox" id="RawPOPSSize">
+                    <property name="name">POPSDistribution</property>
+                    <property name="width_request">660</property>
+                    <property name="height_request">358</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="y">620</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="TenHzTime">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">410</property>
+                    <property name="y">50</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="OneHzTime">
+                    <property name="width_request">168</property>
+                    <property name="height_request">34</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">150</property>
+                    <property name="y">50</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkBox" id="RawCPC1">
+                    <property name="width_request">1240</property>
+                    <property name="height_request">188</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="x">660</property>
+                    <property name="y">790</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="AverageRH">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">410</property>
+                    <property name="y">550</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">RH (%)</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Cantarell 12"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="x">340</property>
+                    <property name="y">556</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="Tlj">
+                    <property name="width_request">168</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">150</property>
+                    <property name="y">500</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">T Labjack (°C)</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Cantarell 12"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="x">30</property>
+                    <property name="y">506</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="Trot">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">150</property>
+                    <property name="y">550</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">T Rotronic (°C)</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Cantarell 12"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="x">30</property>
+                    <property name="y">556</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="name">Eddy Covariance</property>
+                <property name="title" translatable="yes">Raw Data</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkFixed" id="Turbulenece Graphs">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <child>
+                  <object class="GtkBox" id="xpxp1">
+                    <property name="width_request">950</property>
+                    <property name="height_request">400</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="y">50</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="xpxp1FieldG1">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">240</property>
+                    <property name="y">10</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkComboBoxText" id="xpxp1G1">
+                    <property name="width_request">210</property>
+                    <property name="height_request">34</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="active">2</property>
+                    <property name="active_id">wpwp</property>
+                    <items>
+                      <item id="wpTp" translatable="yes">w'T' (K m s-1)</item>
+                      <item id="wpc1cp" translatable="yes">w'c1c' (# m-2 s-1)</item>
+                      <item id="wpc2cp" translatable="yes">w'c2c' (# m-2 s-1)</item>
+                      <item id="wpc1cc2cp" translatable="yes">w'(c1c-c2c)' (# m-2 s-1)</item>
+                      <item id="wpc1sp" translatable="yes">w'c1s' (# m-2 s-1)</item>
+                      <item id="wpc2sp" translatable="yes">w'c2s' (# m-2 s-1)</item>
+                      <item id="wpc1sc2sp" translatable="yes">w'(c1s-c2s)' (# m-2 s-1)</item>
+                      <item id="wpc3p" translatable="yes">w'c3' (# m-2 s-1)</item>
+                      <item id="wpqp" translatable="yes">w'q' (m s-1)</item>
+                    </items>
+                  </object>
+                  <packing>
+                    <property name="x">11</property>
+                    <property name="y">10</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="xpxp1FieldG2">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">540</property>
+                    <property name="y">10</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkBox" id="xpxp2">
+                    <property name="width_request">950</property>
+                    <property name="height_request">400</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="y">550</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="xpxp2FieldG1">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">240</property>
+                    <property name="y">510</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="xpxp2FieldG2">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">540</property>
+                    <property name="y">510</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkComboBoxText" id="xpxp1G2">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="active">2</property>
+                    <property name="active_id">wpwp</property>
+                    <items>
+                      <item id="upup" translatable="yes">u'u' (m2 s-2)</item>
+                      <item id="vpvp" translatable="yes">v'v' (m2 s-2)</item>
+                      <item id="wpwp" translatable="yes">w'w' (m2 s2)</item>
+                      <item id="wpTp" translatable="yes">w'T' (K m s-1)</item>
+                      <item id="wpc1cp" translatable="yes">w'c1c' (# m-2 s-1)</item>
+                      <item id="wpc2cp" translatable="yes">w'c2c' (# m-2 s-1)</item>
+                      <item id="wpc1cc2cp" translatable="yes">w'(c1c-c2c)' (# m-2 s-1)</item>
+                      <item id="wpc1sp" translatable="yes">w'c1s' (# m-2 s-1)</item>
+                      <item id="wpc2sp" translatable="yes">w'c2s' (# m-2 s-1)</item>
+                      <item id="wpc1sc2sp" translatable="yes">w'(c1s-c2s)' (# m-2 s-1)</item>
+                      <item id="wpc3p" translatable="yes">w'c3' (# m-2 s-1)</item>
+                      <item id="wpqp" translatable="yes">w'q' (m s-1)</item>
+                    </items>
+                  </object>
+                  <packing>
+                    <property name="x">730</property>
+                    <property name="y">10</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkComboBoxText" id="xpxp2G1">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="active">2</property>
+                    <property name="active_id">wpwp</property>
+                    <items>
+                      <item id="upup" translatable="yes">u'u' (m2 s-2)</item>
+                      <item id="vpvp" translatable="yes">v'v' (m2 s-2)</item>
+                      <item id="wpwp" translatable="yes">w'w' (m2 s2)</item>
+                      <item id="wpTp" translatable="yes">w'T' (K m s-1)</item>
+                      <item id="wpc1cp" translatable="yes">w'c1c' (# m-2 s-1)</item>
+                      <item id="wpc2cp" translatable="yes">w'c2c' (# m-2 s-1)</item>
+                      <item id="wpc1cc2cp" translatable="yes">w'(c1c-c2c)' (# m-2 s-1)</item>
+                      <item id="wpc1sp" translatable="yes">w'c1s' (# m-2 s-1)</item>
+                      <item id="wpc2sp" translatable="yes">w'c2s' (# m-2 s-1)</item>
+                      <item id="wpc1sc2sp" translatable="yes">w'(c1s-c2s)' (# m-2 s-1)</item>
+                      <item id="wpc3p" translatable="yes">w'c3' (# m-2 s-1)</item>
+                      <item id="wpqp" translatable="yes">w'q' (m s-1)</item>
+                    </items>
+                  </object>
+                  <packing>
+                    <property name="x">10</property>
+                    <property name="y">510</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkComboBoxText" id="xpxp2G2">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="active">2</property>
+                    <property name="active_id">wpwp</property>
+                    <items>
+                      <item id="upup" translatable="yes">u'u' (m2 s-2)</item>
+                      <item id="vpvp" translatable="yes">v'v' (m2 s-2)</item>
+                      <item id="wpwp" translatable="yes">w'w' (m2 s2)</item>
+                      <item id="wpTp" translatable="yes">w'T' (K m s-1)</item>
+                      <item id="wpc1cp" translatable="yes">w'c1c' (# m-2 s-1)</item>
+                      <item id="wpc2cp" translatable="yes">w'c2c' (# m-2 s-1)</item>
+                      <item id="wpc1cc2cp" translatable="yes">w'(c1c-c2c)' (# m-2 s-1)</item>
+                      <item id="wpc1sp" translatable="yes">w'c1s' (# m-2 s-1)</item>
+                      <item id="wpc2sp" translatable="yes">w'c2s' (# m-2 s-1)</item>
+                      <item id="wpc1sc2sp" translatable="yes">w'(c1s-c2s)' (# m-2 s-1)</item>
+                      <item id="wpc3p" translatable="yes">w'c3' (# m-2 s-1)</item>
+                      <item id="wpqp" translatable="yes">w'q' (m s-1)</item>
+                    </items>
+                  </object>
+                  <packing>
+                    <property name="x">725</property>
+                    <property name="y">510</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkBox" id="xpxp3">
+                    <property name="width_request">950</property>
+                    <property name="height_request">400</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="x">950</property>
+                    <property name="y">50</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkBox" id="xpxp4">
+                    <property name="width_request">950</property>
+                    <property name="height_request">400</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="x">950</property>
+                    <property name="y">550</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkComboBoxText" id="xpxp3G1">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="active">1</property>
+                    <property name="active_id">wpwp</property>
+                    <items>
+                      <item id="TKE" translatable="yes">TKE (m2 s-2)</item>
+                      <item id="ustar" translatable="yes">u* (m s-1)</item>
+                      <item id="zoL" translatable="yes">z/L (-)</item>
+                      <item id="wpTp" translatable="yes">w'T' (K m s-1)</item>
+                      <item id="wpc1cp" translatable="yes">w'c1c' (# m-2 s-1)</item>
+                      <item id="wpc2cp" translatable="yes">w'c2c' (# m-2 s-1)</item>
+                      <item id="wpc1cc2cp" translatable="yes">w'(c1c-c2c)' (# m-2 s-1)</item>
+                      <item id="wpc1sp" translatable="yes">w'c1s' (# m-2 s-1)</item>
+                      <item id="wpc2sp" translatable="yes">w'c2s' (# m-2 s-1)</item>
+                      <item id="wpc1sc2sp" translatable="yes">w'(c1s-c2s)' (# m-2 s-1)</item>
+                      <item id="wpc3p" translatable="yes">w'c3' (# m-2 s-1)</item>
+                      <item id="wpqp" translatable="yes">w'q' (m s-1)</item>
+                    </items>
+                  </object>
+                  <packing>
+                    <property name="x">960</property>
+                    <property name="y">10</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="xpxp3FieldG1">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">1190</property>
+                    <property name="y">10</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="xpxp3FieldG2">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">1490</property>
+                    <property name="y">10</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="xpxp4FieldG1">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">1189</property>
+                    <property name="y">510</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="xpxp4FieldG2">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">1490</property>
+                    <property name="y">510</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkComboBoxText" id="xpxp3G2">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="active">2</property>
+                    <property name="active_id">wpwp</property>
+                    <items>
+                      <item id="TKE" translatable="yes">TKE (m2 s-2)</item>
+                      <item id="ustar" translatable="yes">u* (m s-1)</item>
+                      <item id="zoL" translatable="yes">z/L (-)</item>
+                      <item id="wpTp" translatable="yes">w'T' (K m s-1)</item>
+                      <item id="wpc1cp" translatable="yes">w'c1c' (# m-2 s-1)</item>
+                      <item id="wpc2cp" translatable="yes">w'c2c' (# m-2 s-1)</item>
+                      <item id="wpc1cc2cp" translatable="yes">w'(c1c-c2c)' (# m-2 s-1)</item>
+                      <item id="wpc1sp" translatable="yes">w'c1s' (# m-2 s-1)</item>
+                      <item id="wpc2sp" translatable="yes">w'c2s' (# m-2 s-1)</item>
+                      <item id="wpc1sc2sp" translatable="yes">w'(c1s-c2s)' (# m-2 s-1)</item>
+                      <item id="wpc3p" translatable="yes">w'c3' (# m-2 s-1)</item>
+                      <item id="wpqp" translatable="yes">w'q' (m s-1)</item>
+                    </items>
+                  </object>
+                  <packing>
+                    <property name="x">1680</property>
+                    <property name="y">10</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkComboBoxText" id="xpxp4G1">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="active">3</property>
+                    <property name="active_id">wpwp</property>
+                    <items>
+                      <item id="TKE" translatable="yes">TKE (m2 s-2)</item>
+                      <item id="ustar" translatable="yes">u* (m s-1)</item>
+                      <item id="zoL" translatable="yes">z/L (-)</item>
+                      <item id="wpTp" translatable="yes">w'T' (K m s-1)</item>
+                      <item id="wpc1cp" translatable="yes">w'c1c' (# m-2 s-1)</item>
+                      <item id="wpc2cp" translatable="yes">w'c2c' (# m-2 s-1)</item>
+                      <item id="wpc1cc2cp" translatable="yes">w'(c1c-c2c)' (# m-2 s-1)</item>
+                      <item id="wpc1sp" translatable="yes">w'c1s' (# m-2 s-1)</item>
+                      <item id="wpc2sp" translatable="yes">w'c2s' (# m-2 s-1)</item>
+                      <item id="wpc1sc2sp" translatable="yes">w'(c1s-c2s)' (# m-2 s-1)</item>
+                      <item id="wpc3p" translatable="yes">w'c3' (# m-2 s-1)</item>
+                      <item id="wpqp" translatable="yes">w'q' (m s-1)</item>
+                    </items>
+                  </object>
+                  <packing>
+                    <property name="x">960</property>
+                    <property name="y">510</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkComboBoxText" id="xpxp4G2">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="active">5</property>
+                    <property name="active_id">wpwp</property>
+                    <items>
+                      <item id="TKE" translatable="yes">TKE (m2 s-2)</item>
+                      <item id="ustar" translatable="yes">u* (m s-1)</item>
+                      <item id="zoL" translatable="yes">z/L (-)</item>
+                      <item id="wpTp" translatable="yes">w'T' (K m s-1)</item>
+                      <item id="wpc1cp" translatable="yes">w'c1c' (# m-2 s-1)</item>
+                      <item id="wpc2cp" translatable="yes">w'c2c' (# m-2 s-1)</item>
+                      <item id="wpc1cc2cp" translatable="yes">w'(c1c-c2c)' (# m-2 s-1)</item>
+                      <item id="wpc1sp" translatable="yes">w'c1s' (# m-2 s-1)</item>
+                      <item id="wpc2sp" translatable="yes">w'c2s' (# m-2 s-1)</item>
+                      <item id="wpc1sc2sp" translatable="yes">w'(c1s-c2s)' (# m-2 s-1)</item>
+                      <item id="wpc3p" translatable="yes">w'c3' (# m-2 s-1)</item>
+                      <item id="wpqp" translatable="yes">w'q' (m s-1)</item>
+                    </items>
+                  </object>
+                  <packing>
+                    <property name="x">1680</property>
+                    <property name="y">510</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="name">Turbulence</property>
+                <property name="title" translatable="yes">Turbulent Flux</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkFixed" id="Power Spectr">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <child>
+                  <object class="GtkBox" id="spectra1">
+                    <property name="width_request">950</property>
+                    <property name="height_request">930</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="y">50</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="spectra1FieldG1">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">265</property>
+                    <property name="y">11</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkComboBoxText" id="spectraLeft">
+                    <property name="width_request">210</property>
+                    <property name="height_request">0</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="active">2</property>
+                    <property name="active_id">wpwp</property>
+                    <items>
+                      <item id="upup1Hz" translatable="yes">u (m2 s-2) 1 Hz</item>
+                      <item id="vpvp1Hz" translatable="yes">v (m2 s-2) 1 Hz</item>
+                      <item id="wpwp1Hz" translatable="yes">w (m2 s2) 1 Hz</item>
+                      <item id="TpTp1Hz" translatable="yes">T (K2) 1 Hz</item>
+                      <item id="qpqp1Hz" translatable="yes">q (-) 1 Hz</item>
+                      <item id="c1cpc1cp1Hz" translatable="yes">CPC1 counts (cm-6) 1 Hz</item>
+                      <item id="c2cpc2cp1Hz" translatable="yes">CPC2 counts (cm-6) 1 Hz</item>
+                      <item id="ufcpufcp1Hz" translatable="yes">UF counts (cm-6) 1 Hz</item>
+                      <item id="c1spc1sp1Hz" translatable="yes">CPC1 serial (cm-6) 1 Hz</item>
+                      <item id="c2spc2sp1Hz" translatable="yes">CPC2 serial (cm-6) 1 Hz</item>
+                      <item id="ufspufsp1Hz" translatable="yes">UF serial (cm-6) 1Hz</item>
+                      <item id="POPSpPOPSp1Hz" translatable="yes">POPS (cm-6) 1Hz</item>
+                      <item id="upup10Hz" translatable="yes">u (m2 s-2) 10 Hz</item>
+                      <item id="vpvp10Hz" translatable="yes">v (m2 s-2) 10 Hz</item>
+                      <item id="wpwp10Hz" translatable="yes">w (m2 s-2) 10 Hz</item>
+                      <item id="TpTp10Hz" translatable="yes">T (K2) 10 Hz</item>
+                      <item id="qpqp10Hz" translatable="yes">q (-) 10 Hz</item>
+                      <item id="c1cpc1cp10Hz" translatable="yes">CPC1 counts (cm-6) 10 Hz</item>
+                      <item id="c2cpc2cp10Hz" translatable="yes">CPC2 counts (cm-6) 10 Hz</item>
+                      <item id="ufcpufcp10Hz" translatable="yes">UF counts (cm-6) 10 Hz</item>
+                    </items>
+                  </object>
+                  <packing>
+                    <property name="x">10</property>
+                    <property name="y">10</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="spectra1FieldG2">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">500</property>
+                    <property name="y">11</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkBox" id="spectra2">
+                    <property name="width_request">950</property>
+                    <property name="height_request">930</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="x">950</property>
+                    <property name="y">50</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="spectra2FieldG1">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">1270</property>
+                    <property name="y">11</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="spectra2FieldG2">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="editable">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">1455</property>
+                    <property name="y">11</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkComboBoxText" id="coSpectraLeft">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="active">1</property>
+                    <property name="active_id">wpwp</property>
+                    <items>
+                      <item id="wpTp1Hz" translatable="yes">w'T' (K m s-1) 1 Hz</item>
+                      <item id="wpTp10Hz" translatable="yes">w'T' (K m s-1) 10 Hz</item>
+                      <item id="wpqp1Hz" translatable="yes">w'q' (m s-1) 1 Hz</item>
+                      <item id="wpqp10Hz" translatable="yes">w'q' (m s-1) 10 Hz</item>
+                      <item id="wpc1cp1Hz" translatable="yes">w'c1' (# m-2 s-1) C 1 Hz</item>
+                      <item id="wpc1cp10Hz" translatable="yes">w'c1' (# m-2 s-1) C 10 Hz</item>
+                      <item id="wpc2cp1Hz" translatable="yes">w'c2' (# m-2 s-1) C 1 Hz</item>
+                      <item id="wpc2cp10Hz" translatable="yes">w'c2' (# m-2 s-1) C 10 Hz</item>
+                      <item id="wpufcp1Hz" translatable="yes">w'UF' (# m-2 s-1) C 1 Hz</item>
+                      <item id="wpufcp10Hz" translatable="yes">w'UF' (# m-2 s-1) C 10 Hz</item>
+                      <item id="wpc1sp1Hz" translatable="yes">w'c1' (# m-2 s-1) S 1 Hz</item>
+                      <item id="wpc2sp1Hz" translatable="yes">w'c2' (# m-2 s-1) S 1 Hz</item>
+                      <item id="wpufsp1Hz" translatable="yes">w'UF' (# m-2 s-1) S 1 Hz</item>
+                      <item id="wpPOPSp1Hz" translatable="yes">w'POPS' (# m-2 s-1) S 1 Hz</item>
+                    </items>
+                  </object>
+                  <packing>
+                    <property name="x">1000</property>
+                    <property name="y">10</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkComboBoxText" id="spectraRight">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="active">2</property>
+                    <property name="active_id">wpwp</property>
+                    <items>
+                      <item id="upup1Hz" translatable="yes">u (m2 s-2) 1 Hz</item>
+                      <item id="vpvp1Hz" translatable="yes">v (m2 s-2) 1 Hz</item>
+                      <item id="wpwp1Hz" translatable="yes">w (m2 s2) 1 Hz</item>
+                      <item id="TpTp1Hz" translatable="yes">T (K2) 1 Hz</item>
+                      <item id="qpqp1Hz" translatable="yes">q (-) 1 Hz</item>
+                      <item id="c1cpc1cp1Hz" translatable="yes">CPC1 counts (cm-6) 1 Hz</item>
+                      <item id="c2cpc2cp1Hz" translatable="yes">CPC2 counts (cm-6) 1 Hz</item>
+                      <item id="ufcpufcp1Hz" translatable="yes">UF counts (cm-6) 1 Hz</item>
+                      <item id="c1spc1sp1Hz" translatable="yes">CPC1 serial (cm-6) 1 Hz</item>
+                      <item id="c2spc2sp1Hz" translatable="yes">CPC2 serial (cm-6) 1 Hz</item>
+                      <item id="ufspufsp1Hz" translatable="yes">UF serial (cm-6) 1Hz</item>
+                      <item id="POPSpPOPSp1Hz" translatable="yes">POPS (cm-6) 1Hz</item>
+                      <item id="upup10Hz" translatable="yes">u (m2 s-2) 10 Hz</item>
+                      <item id="vpvp10Hz" translatable="yes">v (m2 s-2) 10 Hz</item>
+                      <item id="wpwp10Hz" translatable="yes">w (m2 s-2) 10 Hz</item>
+                      <item id="TpTp10Hz" translatable="yes">T (K2) 10 Hz</item>
+                      <item id="qpqp10Hz" translatable="yes">q (-) 10 Hz</item>
+                      <item id="c1cpc1cp10Hz" translatable="yes">CPC1 counts (cm-6) 10 Hz</item>
+                      <item id="c2cpc2cp10Hz" translatable="yes">CPC2 counts (cm-6) 10 Hz</item>
+                      <item id="ufcpufcp10Hz" translatable="yes">UF counts (cm-6) 10 Hz</item>
+                    </items>
+                  </object>
+                  <packing>
+                    <property name="x">690</property>
+                    <property name="y">10</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkComboBoxText" id="coSpectraRight">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="active">6</property>
+                    <property name="active_id">wpwp</property>
+                    <items>
+                      <item id="wpTp1Hz" translatable="yes">w'T' (K m s-1) 1 Hz</item>
+                      <item id="wpTp10Hz" translatable="yes">w'T' (K m s-1) 10 Hz</item>
+                      <item id="wpqp1Hz" translatable="yes">w'q' (m s-1) 1 Hz</item>
+                      <item id="wpqp10Hz" translatable="yes">w'q' (m s-1) 10 Hz</item>
+                      <item id="wpc1cp1Hz" translatable="yes">w'c1' (# m-2 s-1) C 1 Hz</item>
+                      <item id="wpc1cp10Hz" translatable="yes">w'c1' (# m-2 s-1) C 10 Hz</item>
+                      <item id="wpc2cp1Hz" translatable="yes">w'c2' (# m-2 s-1) C 1 Hz</item>
+                      <item id="wpc2cp10Hz" translatable="yes">w'c2' (# m-2 s-1) C 10 Hz</item>
+                      <item id="wpufcp1Hz" translatable="yes">w'UF' (# m-2 s-1) C 1 Hz</item>
+                      <item id="wpufcp10Hz" translatable="yes">w'UF' (# m-2 s-1) C 10 Hz</item>
+                      <item id="wpc1sp1Hz" translatable="yes">w'c1' (# m-2 s-1) S 1 Hz</item>
+                      <item id="wpc2sp1Hz" translatable="yes">w'c2' (# m-2 s-1) S 1 Hz</item>
+                      <item id="wpufsp1Hz" translatable="yes">w'UF' (# m-2 s-1) S 1 Hz</item>
+                      <item id="wpPOPSp1Hz" translatable="yes">w'POPS' (# m-2 s-1) S 1 Hz</item>
+                    </items>
+                  </object>
+                  <packing>
+                    <property name="x">1640</property>
+                    <property name="y">10</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="name">page1</property>
+                <property name="title" translatable="yes">Power Spectra</property>
+                <property name="position">2</property>
+              </packing>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <object class="GtkFixed">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <child>
+                  <object class="GtkBox" id="Diagnostic1">
+                    <property name="width_request">1200</property>
+                    <property name="height_request">188</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkBox" id="Lag1">
+                    <property name="width_request">1200</property>
+                    <property name="height_request">188</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="y">158</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkBox" id="Lag2">
+                    <property name="width_request">1200</property>
+                    <property name="height_request">188</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="y">316</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkBox" id="Lag3">
+                    <property name="width_request">1200</property>
+                    <property name="height_request">188</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="y">474</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkBox" id="Lag4">
+                    <property name="width_request">1200</property>
+                    <property name="height_request">188</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="y">632</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkBox" id="Lag5">
+                    <property name="width_request">1200</property>
+                    <property name="height_request">188</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="y">790</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkSpinButton" id="Lagt1">
+                    <property name="width_request">150</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="adjustment">LagAd1</property>
+                    <property name="climb_rate">0.1</property>
+                    <property name="digits">1</property>
+                  </object>
+                  <packing>
+                    <property name="x">1250</property>
+                    <property name="y">158</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">Lag times</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Cantarell 12"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="x">1250</property>
+                    <property name="y">125</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkSpinButton" id="Lagt2">
+                    <property name="width_request">150</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="text" translatable="yes">0.0</property>
+                    <property name="adjustment">LagAd2</property>
+                    <property name="climb_rate">0.1</property>
+                    <property name="digits">1</property>
+                  </object>
+                  <packing>
+                    <property name="x">1250</property>
+                    <property name="y">316</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkSpinButton" id="Lagt3">
+                    <property name="width_request">150</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="text" translatable="yes">0.0</property>
+                    <property name="adjustment">LagAd3</property>
+                    <property name="climb_rate">0.1</property>
+                    <property name="digits">1</property>
+                  </object>
+                  <packing>
+                    <property name="x">1250</property>
+                    <property name="y">473</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkSpinButton" id="Lagt4">
+                    <property name="width_request">150</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="text" translatable="yes">0.2</property>
+                    <property name="adjustment">LagAd4</property>
+                    <property name="climb_rate">0.1</property>
+                    <property name="digits">1</property>
+                    <property name="value">0.2</property>
+                  </object>
+                  <packing>
+                    <property name="x">1250</property>
+                    <property name="y">632</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkSpinButton" id="Lagt5">
+                    <property name="width_request">150</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="text" translatable="yes">0.2</property>
+                    <property name="adjustment">LagAd5</property>
+                    <property name="climb_rate">0.1</property>
+                    <property name="digits">1</property>
+                    <property name="value">0.2</property>
+                  </object>
+                  <packing>
+                    <property name="x">1250</property>
+                    <property name="y">790</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="ComputeLags">
+                    <property name="label" translatable="yes">Compute Lags</property>
+                    <property name="width_request">150</property>
+                    <property name="height_request">34</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                  </object>
+                  <packing>
+                    <property name="x">1250</property>
+                    <property name="y">61</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="name">Diagnostic</property>
+                <property name="title" translatable="yes">Diagnostic Charts</property>
+                <property name="position">4</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="resize">False</property>
+            <property name="shrink">True</property>
+          </packing>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+      </object>
+    </child>
+    <child type="titlebar">
+      <object class="GtkHeaderBar" id="header">
+        <property name="width_request">1900</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="has_subtitle">False</property>
+        <property name="spacing">7</property>
+        <property name="show_close_button">True</property>
+        <child>
+          <object class="GtkEntry" id="DataFile">
+            <property name="width_request">400</property>
+            <property name="height_request">10</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="max_width_chars">37</property>
+            <property name="text" translatable="yes">/home/mdpetter/Documents/Data/</property>
+            <property name="primary_icon_stock">gtk-file</property>
+            <property name="secondary_icon_stock">gtk-media-record</property>
+          </object>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <object class="GtkStackSwitcher" id="SwitchMe">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="stack">stack1</property>
+          </object>
+          <packing>
+            <property name="position">3</property>
+          </packing>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+      </object>
+    </child>
+  </object>
+  <object class="GtkAdjustment" id="hkMax">
+    <property name="upper">5</property>
+    <property name="value">5</property>
+    <property name="step_increment">0.1</property>
+    <property name="page_increment">0.1</property>
+  </object>
+  <object class="GtkAdjustment" id="hkMin">
+    <property name="upper">5</property>
+    <property name="step_increment">1</property>
+    <property name="page_increment">10</property>
+  </object>
+  <object class="GtkAdjustment" id="hkScans1">
+    <property name="upper">10</property>
+    <property name="step_increment">1</property>
+    <property name="page_increment">10</property>
+  </object>
+  <object class="GtkAdjustment" id="hkScans2">
+    <property name="upper">10</property>
+    <property name="step_increment">1</property>
+    <property name="page_increment">10</property>
+  </object>
+</interface>
